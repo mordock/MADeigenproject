@@ -5,6 +5,8 @@ import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
+//database
+
 @Database(entities = {Quest.class}, version = 2)
 public abstract class AppDataBase extends RoomDatabase {
     public abstract QuestDao questDao();
