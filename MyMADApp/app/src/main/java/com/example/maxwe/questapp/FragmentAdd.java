@@ -58,6 +58,5 @@ public class FragmentAdd extends Fragment {
                 descriptionText.setText(R.string.description);
             }
         });
-
     }
 }

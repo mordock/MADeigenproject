@@ -12,14 +12,14 @@ import java.util.List;
 @Dao
 public interface QuestDao {
     @Query("SELECT * FROM quest")
-    public LiveData<List<Quest>> getAllquests();
+    LiveData<List<Quest>> getAllquests();
 
     @Insert
-    public void insertQuests(Quest quest);
+    void insertQuests(Quest quest);
 
     @Delete
-    public void deleteQuests(Quest quest);
+    void deleteQuests(Quest quest);
 
     @Update
-    public void updateQuests(Quest quest);
+    void updateQuests(Quest quest);
 }
